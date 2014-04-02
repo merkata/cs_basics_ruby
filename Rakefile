@@ -1,5 +1,5 @@
 require 'rake/testtask'
-current_chapter = "sorting"
+current_chapter = "searching"
 ENV['TEST'] = "tests/t_#{current_chapter}.rb"
 
 Rake::TestTask.new do |t|
